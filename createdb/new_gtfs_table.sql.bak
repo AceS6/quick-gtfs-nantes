@@ -1,0 +1,2 @@
+#/bin/bash
+psql -U $1 -d $1 -h localhost -v schema=$1_staging -f sql/create_gtfs_tables.sql

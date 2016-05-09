@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+"Keolis Rennes","https://data.explore.star.fr","FR","20160509","20160612","Horaires d'hiver 2015/2016 - Version 11.0 - Mai"
