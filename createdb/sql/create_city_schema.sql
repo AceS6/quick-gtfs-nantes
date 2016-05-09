@@ -68,7 +68,7 @@ stop_lon NUMERIC(38,8),
 zone_id NUMERIC(5),
 stop_url VARCHAR(100),
 location_type NUMERIC(2),
-parent_station NUMERIC(38)
+parent_station VARCHAR(15),
 wheelchair_boarding NUMERIC(1) DEFAULT 0
 );
 
