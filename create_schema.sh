@@ -9,6 +9,6 @@ if [ "$#" -eq  "0" ]
 
 	cat $sql | sed $s_prod > $tmp
 
-	sudo -u postgres psql -a -U gtfs_prod -d gtfs_prod -f $tmp -h localhost
-	sudo -u postgres psql -a -U gtfs_staging -d gtfs_staging -f $tmp -h localhost
+	sudo -u postgres psql -a -U goodway_beta -d goodway_beta -f $tmp -h localhost
+	#sudo -u postgres psql -a -U goodway_prod -d goodway_prod -f $tmp -h localhost
    fi

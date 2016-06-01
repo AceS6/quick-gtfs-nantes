@@ -60,7 +60,9 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,locatio
 */
 
 CREATE TABLE var_name.GTFS_STOPS
-( stop_id VARCHAR(15),
+( 
+stop_id VARCHAR(15),
+stop_code VARCHAR(15),
 stop_name VARCHAR(100),
 stop_desc VARCHAR(100),
 stop_lat NUMERIC(38,8),
@@ -183,5 +185,10 @@ CREATE TABLE var_name.GTFS_TRIPS (
     direction varchar
 );
 
+CREATE TABLE var_name.SUBSCRIPTIONS(
+    p int not null references public.persons(id),
+    route_id VARCHAR(10) NOT NULL,
+    stop_id VARCHAR(15) NOT NULL
+);
 
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA nantes TO nantes;
