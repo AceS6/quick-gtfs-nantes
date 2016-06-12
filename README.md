@@ -1,13 +1,12 @@
 # About
-Quick & easy import of GTFS data into a PostGreSQL database.
-
-* [GTFS (General Transit Feed Specification)](http://code.google.com/transit/spec/transit_feed_specification.html)
-* [List of Public GTFS feeds](http://code.google.com/p/googletransitdatafeed/wiki/PublicFeeds)
+Quick import of your GTFS data in your PostGreSQL database. Tested only on SEMITAN-Nantes Gtfs.
 
 # License
 Released under the MIT (X11) license. See LICENSE in this directory.
 
 # Installation
+replace new_town by the name of your city. Respect file hierarchy as in the example.
+
 ./reset.sh
 
 ./create_schema.sh new_town
