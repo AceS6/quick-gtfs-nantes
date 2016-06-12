@@ -8,10 +8,10 @@ Quick & easy import of GTFS data into a PostGreSQL database.
 Released under the MIT (X11) license. See LICENSE in this directory.
 
 # Installation
-run this script from the root folder
-
 ./reset.sh
+
 ./create_schema.sh new_town
+
 ./import_gtfs.sh new_town
 
 
