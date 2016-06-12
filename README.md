@@ -14,6 +14,7 @@ Released under the MIT (X11) license. See LICENSE in this directory.
 
 ./import_gtfs.sh new_town
 
+
 A folder name new_town needs to be created in data/ so the installer can find this path : ./data/new_town/
 In this folder, add your gtfs files
 
